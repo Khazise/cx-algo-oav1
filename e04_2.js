@@ -1,8 +1,12 @@
-function count(array = [])
+function average(array = [])
 {
-    for(var i = 0; array[i] != null; i++){}
+    let somme = 0;
+    for(var i = 0; array[i] != null; i++)
+    {
+        somme += array[i] ;
+    }
 
-    return i;
+    return somme/i;
 }
 
-console.log(count(["a","b","c"]));
+console.log(average([1,2,3,4,5]));
