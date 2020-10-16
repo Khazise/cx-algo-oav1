@@ -1,4 +1,4 @@
-function bulleSort(array = [])
+function bubbleSort(array = [])
 {
     let tmp=0;
     for(let y=0; y<array.length;y++)
@@ -17,4 +17,4 @@ function bulleSort(array = [])
     return array;
 }
 
-console.log(bulleSort([5,2,1,4,3]));
+console.log(bubbleSort([5,2,1,4,3]));
